@@ -1,0 +1,216 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1.4, 27 July 2018) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options.
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages.
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{008080}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Ciaran McKey}
+\tagline{Software Engineer}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{ciaranmckey@gmail.com}
+  \phone{+44 7472 557 891}
+  \location{Cambridge, UK}
+  \linkedin{https://www.linkedin.com/in/ciaran-mckey/}
+%   \github{github.com/mmayer} % I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experience}
+%talk about ARGO CD provisioning, authing, microservice resilience, database migration, 
+\cvevent{Software Engineer}{Darktrace}{Apr 2021 - Present}{Cambridge, UK}
+\begin{itemize}
+\item \textbf{Authentication:}
+  \begin{itemize}
+    \item Developed and deployed AWS authentication server with proficient permissions management.
+    \item Developed and deployed secure inter-server authentication across internal systems.
+  \end{itemize}
+\item \textbf{Database Design and Management:}
+  \begin{itemize}
+    \item Designed 3NF relational DB tables  and managed production data migrations.
+  \end{itemize}
+\item \textbf{Microservices Expertise:}
+  \begin{itemize}
+    \item Designed a microservice-oriented architecture within Kubernetes.
+    \item Developed microservices using Python and crafted corresponding Helm charts and infrastructure using terraform.
+    \item Implemented and fine tuned microservice scaling using Prometheus metrics and Keda.
+    \item Acquired a comprehensive understanding of fault tolerance principles in microservices and translated these principles into robust, code-based implementations.
+  \end{itemize}
+\item \textbf{Kubernetes Dev Flow Optimization:}
+  \begin{itemize}
+    \item Researched and established a streamlined Kubernetes development flow for developers, optimizing the development cycle by simplifying deployment, testing, and iteration processes. ( Docker, DevSpace, Kind, Teleport ) 
+  \end{itemize}
+\item \textbf{Metrics and Monitoring in Kubernetes:}
+  \begin{itemize}
+    \item Researched and contributed to the implementation of a monitoring stack for Kubernetes microservices, focusing on realizing the three pillars of observability.
+    \begin{itemize}
+        \item Metrics ( Prometheus/ Grafana )
+        \item Logs ( Loki )
+        \item Traces ( OpenTelemetry )
+  \end{itemize}
+\item \textbf{CI/CD Pipeline Dev:}
+  \begin{itemize}
+    \item Created a GitOps-driven CI/CD pipeline utilizing Flux, ArgoCD, and GitLab CI/CD to deploy to EKS securely. 
+  \end{itemize}
+\item \textbf{Efficient Customer Provisioning:}
+  \begin{itemize}
+    \item Engineered streamlined customer on-boarding using ArgoCD and microservices.
+  \end{itemize}
+\item \textbf{Key AWS Services:}
+  \begin{itemize}
+  \item Foundational AWS knowledge, focused on networking, firewalls, and permissions.
+    \item Skillfully used AWS services: ECR, EKS, SQS, Lambda, S3, IAM, etc.
+  \end{itemize}
+\item \textbf{Effective Soft Skills:}
+  \begin{itemize}
+    \item Successful 2-15 member on-boarding, coordinated team efforts, effective collaboration.
+  \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+
+  
+\cvevent{System and Backend Developer}{Play Well for Life}{Jan 2020 - Apr 2021}{Surrey, UK}
+\begin{itemize}
+\item \textbf{System Design and ECS Development:}
+  \begin{itemize}
+    \item Designed and developed containerized ECS services.
+  \end{itemize}
+\item \textbf{Dynamic Systems Programming:}
+  \begin{itemize}
+    \item Programmed microcontrollers, API's, and databases.
+  \end{itemize}
+\item \textbf{Java Development:}
+  \begin{itemize}
+    \item Proficient in Java programming.
+  \end{itemize}
+\item \textbf{CI/CD Pipeline Building:}
+  \begin{itemize}
+    \item Created effective CI/CD pipelines.
+  \end{itemize}
+\item \textbf{Customer Portal with Bubble.io:}
+  \begin{itemize}
+    \item Developed customer portal using Bubble.io.
+  \end{itemize}
+\item \textbf{Goal-Oriented People Management:}
+  \begin{itemize}
+    \item Efficiently managed teams to achieve objectives.
+  \end{itemize}
+\end{itemize}
+
+\cvevent{Professor's Assistant}{University Of Cape Town}{June 2019 - November 2019}{Cape Town, South Africa}
+\begin{itemize}
+\item \textbf{Low-Cost Radar Feasibility Testing:}
+  \begin{itemize}
+    \item Assessed low-cost radar viability using LimeSDR.
+  \end{itemize}
+\item \textbf{C++ Development:}
+  \begin{itemize}
+    \item Proficient in C++ programming.
+  \end{itemize}
+\item \textbf{Antenna Design:}
+  \begin{itemize}
+    \item Designed effective antennas.
+  \end{itemize}
+\item \textbf{Hybrid Systems:}
+  \begin{itemize}
+    \item Expertise in hybrid system architectures.
+  \end{itemize}
+\end{itemize}
+
+
+
+
+\cvsection[page2sidebar]{Project Experience }
+\cvachievement{\faServer}{Customer-facing high load application.}{ Due to the nature of the product and its stage of development, I am unable to disclose details. This project is built on Kubernetes with a microservice architecture and SQS as a message broker for asynchronous processing. This was the first of its kind, and so we were a platform for accessing feasibility and effectiveness of Kubernetes as a solution. We built everything from the ground up, from the developer tools, monitoring stack to the customer provisioning. This product is in its early adopter phase, to be released to the general public in the coming months.}
+
+\divider
+\cvachievement{\faGamepad}{Educational Minecraft platform.}{ At Play Well for Life, we developed a product which aimed to use Minecraft as an educational platform. In order to cope with scale, I designed it around containerised servers using ECS. These containers were only accessible through a BungeeCord Proxy Server which authenticated and redirected players to their servers. I also created a website using bubble.io that was the platform to rent a server that would provision a server for new customer on purchase and allow them to add a list of allowed Minecraft Users to join. }
+
+
+\cvsection{Hobbies}
+
+\cvachievement{\faMapMarker}{Rock Climbing}{3 Times a week for 3 years}
+
+\divider
+\cvachievement{\faPlane}{Traveling}{ Exploring new countries and having new experiences}
+\divider
+\cvachievement{\faCode}{Coding}{Creating apps and learning new skills for fun.}
+
+\clearpage
+
+
+\end{document}
