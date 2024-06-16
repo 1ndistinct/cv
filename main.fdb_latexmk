@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber main"] 1718531395 "main.bcf" "main.bbl" "main" 1718532251
-  "main.bcf" 1718532251 106534 02c039e1d348d027af024730669235f6 "pdflatex"
+["biber main"] 1718571989 "main.bcf" "main.bbl" "main" 1718573316
+  "main.bcf" 1718573316 106534 02c039e1d348d027af024730669235f6 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1718532250 "/root/repositories/cv/main.tex" "main.pdf" "main" 1718532251
+["pdflatex"] 1718573315 "/root/repositories/cv/main.tex" "main.pdf" "main" 1718573316
   "/etc/texmf/web2c/texmf.cnf" 1690152546 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/root/repositories/cv/main.tex" 1718532250 4694 bbc2d6829100ec99d2d323cd25a06f90 ""
+  "/root/repositories/cv/main.tex" 1718573315 5454 bd11f424225587e3e07d50d5cf554a04 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1561498483 2908 33404fff2a7b8e169974e96af0be5333 ""
@@ -172,11 +172,12 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711785100 1435841 a19066fec1c3bd1d72b3cdeae2048ea6 ""
   "altacv.cls" 1718527359 9211 27294445c51cefcf502f78e1c15192f3 ""
   "dt_logo.jpeg" 1718527359 7091 83f208a357ee723c3305fb126aadf38e ""
-  "main.aux" 1718532251 142 8b58bf859a0d985e32a947963c9f2f8e "pdflatex"
+  "main.aux" 1718573316 142 bfca6ac298cf0d451433578ede0e02eb "pdflatex"
   "main.bbl" 1718527359 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.run.xml" 1718532251 2230 63b3b7999850b4e84c799d52ce555e2c "pdflatex"
-  "main.tex" 1718532250 4694 bbc2d6829100ec99d2d323cd25a06f90 ""
-  "page1sidebar.tex" 1718531658 1029 ee02ea880a5b0efdd566ac5806e1f25e ""
+  "main.run.xml" 1718573316 2230 63b3b7999850b4e84c799d52ce555e2c "pdflatex"
+  "main.tex" 1718573315 5454 bd11f424225587e3e07d50d5cf554a04 ""
+  "page1sidebar.tex" 1718569988 823 76b5c2cf5ff6694b0b42f46d7fdaaed7 ""
+  "page2sidebar.tex" 1718568437 139 ae0055bc81f441828683a5d32405fbaa ""
   "pwfl_logo.jpg" 1718527359 531700 3579c2bc2c2c5c1bccd5c362c190218e ""
   "uct_logo.png" 1718527359 15681 5abc1384f488e47d9763e5c80adf0f58 ""
   (generated)
