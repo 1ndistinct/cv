@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.11)  11 AUG 2023 14:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.30)  16 JUN 2024 11:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/ciaran/repositories/cv/main.tex
-(/home/ciaran/repositories/cv/main.tex
+**/root/repositories/cv/main.tex
+(/root/repositories/cv/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (./altacv.cls
 Document Class: altacv 2018/07/27 AltaCV v1.1.4, yet another alternative class for a résumé/curriculum vitae.
@@ -429,7 +429,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip61
 \blx@bcfin=\read4
 \blx@bcfout=\write4
-\blx@langwohyphens=\language3
+\blx@langwohyphens=\language7
 \c@mincomprange=\count337
 \c@maxcomprange=\count338
 \c@mincompwidth=\count339
@@ -1175,61 +1175,56 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 2.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 2.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 3.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 3.
 <uct_logo.png, id=4, 200.75pt x 203.76125pt>
 File: uct_logo.png Graphic file (type png)
 <use uct_logo.png>
-Package pdftex.def Info: uct_logo.png  used on input line 7.
+Package pdftex.def Info: uct_logo.png  used on input line 3.
 (pdftex.def)             Requested size: 11.03975pt x 11.20534pt.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 8.
+(Font)              scaled to size 10.0pt on input line 4.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 8.
-)
-<dt_logo.jpeg, id=6, 321.2pt x 321.2pt>
-File: dt_logo.jpeg Graphic file (type jpg)
-<use dt_logo.jpeg>
-Package pdftex.def Info: dt_logo.jpeg  used on input line 72.
-(pdftex.def)             Requested size: 8.02802pt x 8.02802pt.
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 74.
+(Font)              scaled to size 9.0pt on input line 4.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 16.
  (/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 74.
+(Font)              scaled to size 9.0pt on input line 16.
+)
+<dt_logo.jpeg, id=6, 321.2pt x 321.2pt>
+File: dt_logo.jpeg Graphic file (type jpg)
+<use dt_logo.jpeg>
+Package pdftex.def Info: dt_logo.jpeg  used on input line 73.
+(pdftex.def)             Requested size: 8.02802pt x 8.02802pt.
+File: dt_logo.jpeg Graphic file (type jpg)
+<use dt_logo.jpeg>
+Package pdftex.def Info: dt_logo.jpeg  used on input line 86.
+(pdftex.def)             Requested size: 8.02802pt x 8.02802pt.
 <pwfl_logo.jpg, id=7, 455.301pt x 412.6617pt>
 File: pwfl_logo.jpg Graphic file (type jpg)
 <use pwfl_logo.jpg>
-Package pdftex.def Info: pwfl_logo.jpg  used on input line 124.
+Package pdftex.def Info: pwfl_logo.jpg  used on input line 98.
 (pdftex.def)             Requested size: 11.37971pt x 10.314pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./uct_logo.png> <./dt_logo.jpeg> <./pwfl_logo.jpg>]
-File: uct_logo.png Graphic file (type png)
-<use uct_logo.png>
-Package pdftex.def Info: uct_logo.png  used on input line 152.
-(pdftex.def)             Requested size: 10.03809pt x 10.18864pt.
- (./page2sidebar.tex) [2] (./main.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./uct_logo.png> <./dt_logo.jpeg> <./pwfl_logo.jpg>] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26633 strings out of 480247
- 553740 string characters out of 5896151
- 1279819 words of memory out of 5000000
- 44166 multiletter control sequences out of 15000+600000
- 783478 words of font info for 61 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 115i,13n,118p,1158b,848s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on main.pdf (2 pages, 667098 bytes).
+ 26577 strings out of 480171
+ 552428 string characters out of 5894489
+ 1273064 words of memory out of 5000000
+ 44124 multiletter control sequences out of 15000+600000
+ 737854 words of font info for 57 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 115i,13n,118p,1151b,848s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
+Output written on main.pdf (1 page, 642444 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
