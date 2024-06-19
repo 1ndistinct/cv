@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1718769627 "main.bcf" "main.bbl" "main" 1718771152
-  "main.bcf" 1718771152 106534 02c039e1d348d027af024730669235f6 "pdflatex"
+["biber main"] 1718769627 "main.bcf" "main.bbl" "main" 1718771372
+  "main.bcf" 1718771371 106534 02c039e1d348d027af024730669235f6 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1718771151 "/root/repositories/cv/main.tex" "main.pdf" "main" 1718771152
+["pdflatex"] 1718771370 "/root/repositories/cv/main.tex" "main.pdf" "main" 1718771372
   "/etc/texmf/web2c/texmf.cnf" 1690152546 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/root/repositories/cv/main.tex" 1718771097 7305 ebab1791c31d74fa19659a43605809b8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
@@ -172,12 +172,12 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711785100 1435841 a19066fec1c3bd1d72b3cdeae2048ea6 ""
   "altacv.cls" 1718527359 9211 27294445c51cefcf502f78e1c15192f3 ""
   "dt_logo.jpeg" 1718527359 7091 83f208a357ee723c3305fb126aadf38e ""
-  "main.aux" 1718771152 142 7f1b9bd695a793ed9fbda84b8288c9ae "pdflatex"
+  "main.aux" 1718771371 142 7f1b9bd695a793ed9fbda84b8288c9ae "pdflatex"
   "main.bbl" 1718527359 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.run.xml" 1718771152 2230 63b3b7999850b4e84c799d52ce555e2c "pdflatex"
+  "main.run.xml" 1718771371 2230 63b3b7999850b4e84c799d52ce555e2c "pdflatex"
   "main.tex" 1718771097 7305 ebab1791c31d74fa19659a43605809b8 ""
   "page1sidebar.tex" 1718769449 772 2fb315c2c3cfad08147acd514c8c0b0c ""
-  "page2sidebar.tex" 1718771151 1966 11c59dc59c24252c10e7c48b7b1f4ca1 ""
+  "page2sidebar.tex" 1718771370 1972 3d5996cfa9e114c54c82687c041802ad ""
   "pwfl_logo.jpg" 1718527359 531700 3579c2bc2c2c5c1bccd5c362c190218e ""
   "uct_logo.png" 1718527359 15681 5abc1384f488e47d9763e5c80adf0f58 ""
   (generated)
