@@ -12,7 +12,7 @@
 \cvskill{Docker}{5}
 \cvskill{Application Architect}{4}
 \cvskill{Linux}{3}
-\cvskill{Golang}{3}
+\cvskill{Golang}{2}
 \cvskill{ReactJS}{2}
 \cvskill{Rust}{2}
 
@@ -30,11 +30,20 @@
 \divider
 
 \textbf{Soft Skills}
-\divider
-{\faExclamation}{   \textbf{Purposefully left unrated}}
 
-\cvskill{Communication}{0}
-\cvskill{Management}{0}
-\cvskill{Collaboration}{0}
+\begin{itemize}[label={},labelsep=0pt, leftmargin=0pt,itemsep=0pt, parsep=0pt]
+    \item \textbf{\textcolor{black}{Communication}}
+    \item \textbf{\textcolor{black}{Management}}
+    \item \textbf{\textcolor{black}{Collaboration}}
+\end{itemize}
 
+\cvsection{Hobby Projects}
+\cvachievement{\faServer}{Stock Trading Bot.}{
+  I have built out a stock trading bot using Alpaca Trading Webhooks and API's, Python, Postgres and Redis. This bot is deployed on Kubernetes through my homelab internal developer platform. The application is made up of 3 components. 
+  \begin{itemize}
+    \item The API which serves the data. 
+    \item The tradestream which is a websocket listener which listens for order events such as fills, cancellations and creations. This is used to improve trade quality with near realtime updates on trading behaviour for a stock.
+    \item the datastream which is a websocket listener which listens for trade bars and qoutes and trades. These are used with strategies to buy and sell stocks based on market movements. 
+  \end{itemize}
+}
 

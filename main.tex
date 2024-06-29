@@ -8,7 +8,10 @@
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
 \documentclass[10pt,a4paper]{altacv}
-
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{setspace} % For text spacing adjustments
 %% AltaCV uses the fontawesome and academicon fonts
 %% and packages.
 %% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
@@ -40,6 +43,7 @@
 \colorlet{emphasis}{SlateGrey}
 \colorlet{body}{LightGrey}
 
+
 % Change the bullets for itemize and rating marker
 % for \cvskill if you want to
 \renewcommand{\itemmarker}{{\small\textbullet}}
@@ -47,6 +51,9 @@
 
 
 \begin{document}
+\setlength{\parskip}{0pt}
+
+
 \name{Ciaran McKey}
 \tagline{}
 
@@ -72,8 +79,63 @@
 
 \cvevent{Engineering Lead}{ \includegraphics[scale=0.025]{dt_logo.jpeg} Darktrace | Cyber Security | 3000 Employees | Global }{Jan 2024 - Present}{Cambridge, UK}
 \textbf{Technologies}
+\divider
 
-{\faExclamation}{   \textbf{All technologies from the previous role still apply.}}
+\textbf{Python}
+
+\cvtag{Python}
+\cvtag{FastAPI}
+\cvtag{Uvicorn}
+\cvtag{SQLAlchemy}
+\cvtag{Alembic}
+\cvtag{Pydantic}
+\cvtag{Celery}
+\cvtag{PyTest}
+\cvtag{Concurrent Futures}
+\cvtag{Asyncio}
+\cvtag{NumPy}
+\cvtag{Pandas}
+
+\divider
+
+\textbf{Ops}
+
+\cvtag{PostgreSql}
+\cvtag{Bash}
+\cvtag{Redis}
+\cvtag{Docker}
+\cvtag{Kubernetes}
+\cvtag{Git}
+\cvtag{GitLab CI/CD}
+\cvtag{Terrafrom}
+\cvtag{FluxCD}
+\cvtag{ArgoCD}
+\cvtag{Helm}
+
+\divider 
+
+\textbf{AWS}
+
+\cvtag{DynamoDb}
+\cvtag{RDS} 
+\cvtag{EC2}
+\cvtag{EKS}
+\cvtag{ECS}
+\cvtag{SQS} 
+\cvtag{IAM}
+\cvtag{WAF}
+\cvtag{S3}
+\cvtag{CloudTrail}
+\cvtag{Cloudformation}
+\cvtag{Lambda}
+\cvtag{API Gateway}
+\cvtag{Parameter Store}
+\cvtag{Secrets Manager}
+\cvtag{Route53}
+
+\divider
+
+\textbf{Other}
 
 \cvtag{Golang}
 \cvtag{Rust}
@@ -94,47 +156,20 @@ I have been given a team to lead following the successful launch of the Cloud Se
   \item Architect, build and deploy all facets of production applications on Kubernetes to serve new product services.
   \item Manage priorities, Assign tasks and deadlines to team members and all other clarical work associated with management
 \end{itemize}
-\divider
+
+\newpage
+
+\cvsection[page2sidebar]{Experience Continued}
 
 \cvevent{Software Engineer}{ \includegraphics[scale=0.025]{dt_logo.jpeg} Darktrace | Cyber Security | 3000 Employees | Global }{Apr 2021 - Jan 2024}{Cambridge, UK}
 
 \divider
 \textbf{Technologies}
 
-\cvtag{Python}
-\cvtag{Asyncio}
-\cvtag{Concurrent Futures}
-\cvtag{PyTest}
-\cvtag{Uvicorn}
-\cvtag{FastAPI}
-\cvtag{SQLAlchemy}
-\cvtag{Alembic}
-\cvtag{Celery}
-\cvtag{Pydantic}
-\cvtag{PostgreSql}
-\cvtag{Redis}
-\cvtag{Docker}
-\cvtag{Kubernetes}
-\cvtag{GitLab CI/CD}
-\cvtag{Git}
-\cvtag{AWS DynamoDb}
-\cvtag{AWS RDS} 
-\cvtag{AWS EC2}
-\cvtag{AWS EKS}
-\cvtag{AWS ECS}
-\cvtag{AWS SQS} 
-\cvtag{AWS IAM}
-\cvtag{AWS WAF}
-\cvtag{AWS S3}
-\cvtag{AWS CloudTrail}
-\cvtag{AWS Cloudformation}
-\cvtag{AWS Lambda}
-\cvtag{AWS API Gateway}
-\cvtag{AWS Parameter Store}
-\cvtag{AWS Secrets Manager}
+{\faExclamation}{   \textbf{Same technologies used as in current role.}}
+
 \divider
 
-\cvsection[page2sidebar]{Experience Continued}
 
 \textbf{Overview}
 
@@ -182,13 +217,5 @@ Quick itteration development building MVP's for product ideas to take to investo
   \item Built CI/CD pipelines
   \item Built Customer Portal with Bubble.io
 \end{itemize}
-
-\cvsection{Hobbies}
-
-\cvachievement{\faMapMarker}{Rock Climbing}{}
-\cvachievement{\faPlane}{Traveling}{}
-\cvachievement{\faCode}{Coding}{}
-
-\clearpage
 
 \end{document}

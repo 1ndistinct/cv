@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber main"] 1718769627 "main.bcf" "main.bbl" "main" 1718771372
-  "main.bcf" 1718771371 106534 02c039e1d348d027af024730669235f6 "pdflatex"
+["biber main"] 1719648080 "main.bcf" "main.bbl" "main" 1719648304
+  "main.bcf" 1719648304 106534 02c039e1d348d027af024730669235f6 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1718771370 "/root/repositories/cv/main.tex" "main.pdf" "main" 1718771372
+["pdflatex"] 1719648303 "/root/repositories/cv/main.tex" "main.pdf" "main" 1719648304
   "/etc/texmf/web2c/texmf.cnf" 1690152546 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/root/repositories/cv/main.tex" 1718771097 7305 ebab1791c31d74fa19659a43605809b8 ""
+  "/root/repositories/cv/main.tex" 1719648303 7453 5b6d9840b6cdbb97061e2969f1af9f37 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1561498483 2908 33404fff2a7b8e169974e96af0be5333 ""
@@ -155,9 +155,11 @@
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty" 1601326656 348 ee405e64380c11319f0e249fed57e6c5 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty" 1601326656 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1601326656 325 f9f16d12354225b7dd52a3321f085955 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty" 1324344192 22913 a27d7908fc6f0385466454a966a316eb ""
   "/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex" 1641594609 88290 15c7048aaa000d13a030dcd3f4231dc4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex" 1641594609 10040 396837c93bd930532a721661d144e71c ""
   "/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty" 1641594609 90399 93200a4832e517564b5aa5dc46e12177 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty" 1625518490 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty" 1622581934 4085 5d204adcbe1ad2fc72fe565763c803ee ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty" 1636758526 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty" 1622581934 7147 5ac8a9ef36411064b1a501137af0fa54 ""
@@ -172,12 +174,12 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711785100 1435841 a19066fec1c3bd1d72b3cdeae2048ea6 ""
   "altacv.cls" 1718527359 9211 27294445c51cefcf502f78e1c15192f3 ""
   "dt_logo.jpeg" 1718527359 7091 83f208a357ee723c3305fb126aadf38e ""
-  "main.aux" 1718771371 142 7f1b9bd695a793ed9fbda84b8288c9ae "pdflatex"
+  "main.aux" 1719648304 142 7f1b9bd695a793ed9fbda84b8288c9ae "pdflatex"
   "main.bbl" 1718527359 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.run.xml" 1718771371 2230 63b3b7999850b4e84c799d52ce555e2c "pdflatex"
-  "main.tex" 1718771097 7305 ebab1791c31d74fa19659a43605809b8 ""
-  "page1sidebar.tex" 1718769449 772 2fb315c2c3cfad08147acd514c8c0b0c ""
-  "page2sidebar.tex" 1718771370 1972 3d5996cfa9e114c54c82687c041802ad ""
+  "main.run.xml" 1719648304 2230 63b3b7999850b4e84c799d52ce555e2c "pdflatex"
+  "main.tex" 1719648303 7453 5b6d9840b6cdbb97061e2969f1af9f37 ""
+  "page1sidebar.tex" 1719648278 1682 ee937085892d67c46b4af23cfa4263c1 ""
+  "page2sidebar.tex" 1719648260 1321 e81578bac927fe6b2120f4bbac75cf46 ""
   "pwfl_logo.jpg" 1718527359 531700 3579c2bc2c2c5c1bccd5c362c190218e ""
   "uct_logo.png" 1718527359 15681 5abc1384f488e47d9763e5c80adf0f58 ""
   (generated)
