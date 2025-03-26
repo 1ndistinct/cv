@@ -8,42 +8,54 @@
 
 \textbf{Development}
 
-\cvskill{Python}{5}
-\cvskill{Docker}{5}
-\cvskill{Application Architect}{4}
-\cvskill{Linux}{3}
-\cvskill{Golang}{2}
-\cvskill{ReactJS}{2}
-\cvskill{Rust}{2}
+\cvtag{Python}
+\cvtag{Javascript}
+\cvtag{Docker}
+\cvtag{Linux}
+\cvtag{Golang}
+\cvtag{ReactJS}
+\cvtag{Gitlab CI/CD}
+\cvtag{Github Actions}
+\cvtag{Postgres}
+\cvtag{Redis}
+\cvtag{Bash}
+\cvtag{Git}
 
 \divider
 
 \textbf{DevOps}
 
-\cvskill{AWS}{5} 
-\cvskill{Kubernetes}{4}
-\cvskill{System Architect}{4}
-\cvskill{Helm}{3}
-\cvskill{FluxCD}{3}
-\cvskill{ArgoCD}{3}
-\cvskill{Terraform}{3}
+\cvtag{AWS - SQS, Lambda, DynamoDB, EKS, S3 etc.}
+\cvtag{Cloudflare}
+\cvtag{Kubernetes}
+\cvtag{Helm}
+\cvtag{FluxCD}
+\cvtag{ArgoCD}
+\cvtag{Terraform}
+\cvtag{Prometheus}
+\cvtag{Grafana}
+\cvtag{OpenTelemetry}
+
 \divider
 
 \textbf{Soft Skills}
 
-\begin{itemize}[label={},labelsep=0pt, leftmargin=0pt,itemsep=0pt, parsep=0pt]
-    \item \textbf{\textcolor{black}{Communication}}
-    \item \textbf{\textcolor{black}{Management}}
-    \item \textbf{\textcolor{black}{Collaboration}}
-\end{itemize}
+\cvtag{Communication}
+\cvtag{Management}
+\cvtag{Collaboration}
+\cvtag{Flexibility}
 
 \cvsection{Hobby Projects}
-\cvachievement{\faServer}{Stock Trading Bot.}{
-  I have built out a stock trading bot using Alpaca Trading Webhooks and API's, Python, Postgres and Redis. This bot is deployed on Kubernetes through my homelab internal developer platform. The application is made up of 3 components. 
-  \begin{itemize}
-    \item The API which serves the data. 
-    \item The tradestream is a websocket listener that listens for order events such as fills, cancellations and creations. This is used to improve trade quality with near realtime updates on trading behaviour for a stock.
-    \item the datastream is a websocket listener that listens for trade bars, quotes and trades. These are used with strategies to buy and sell stocks based on market movements. 
-  \end{itemize}
+\cvachievement{\faServer}{Stock Trading Bot. \href{https://ciaranmckey-com.vercel.app/projects/tradingbot}{More Info} }{
+  Developed a stock trading bot using Alpaca Trading Webhooks and API's, Python, Postgres and Redis. Uses websocket connections to ensure speed of transactions.
+}
+\cvachievement{\faServer}{Self Hosted Kubernetes. \href{https://ciaranmckey-com.vercel.app/projects/homelab}{More Info}}{ 
+  Managed and Deployed a baremetal Kubernetes cluster, using FluxCD, Terraform along with many CRD's for supporting systems within the cluster.
 }
 
+\cvachievement{\faServer}{Info Vault. \href{https://ciaranmckey-com.vercel.app/projects/info-vault}{More Info}}{ 
+  A modern, open-source solution, centralized platform solution for securely uploading, organizing, and querying personal documents using agentic AI-powered insights and search capabilities, while keeping your files secure and accessible. Including a UI in ReactJS.
+}
+\cvachievement{\faServer}{Auth API. \href{https://ciaranmckey-com.vercel.app/projects/auth-api}{More Info}}{ 
+  Developed an Identity Provider, hosting public keys, issuing JWT token, as well as session based authentication with cookies. including a UI in ReactJS.
+  }
